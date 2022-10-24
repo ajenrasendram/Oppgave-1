@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oppgave 1</title>
+    <style>
+        caption {
+            background-color: aqua;
+            font-size: 4rem;
+            color: red;
+            padding: 1px 7px;
+            border: 1px solid black;
+        }
+        #andreoverskrift{
+            font-size: 4rem;
+        }
+        table {
+            border-collapse: collapse;
+            padding: 1px 7px;
+            border: 1px solid black;
+            
+        }
+        tbody{
+            font-size: 3rem;
+        }
+        tbody>tr{
+            background-color: blue;
+            color: white;
+        }
+        td {
+            padding: 1px 7px;
+            border: 1px solid black;
+        }
+        th{
+            text-align: left;
+            padding: 1px 7px;
+            border: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+        table.striped>tbody>tr:nth-child(odd) {
+            background-color: springgreen;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <table class="striped">
+        
+        <thead>
+            <tr>
+                <caption>År</caption>
+            </tr>
+        </thead>
+        <tbody>
+            <tr id="andreoverskrift">
+                <td>Måned</td>
+                <td>Tjent</td>
+            </tr>
+            <tr>
+                <td>januar</td>
+                <td>10000 kr</td>
+            </tr>
+            <tr>
+                <td>februar</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+                <td>mars</td>
+                <td>25000kr</td>
+            </tr>
+            <tr>
+                <td>april</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+                <td>mai</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+                <td>juni</td>
+                <td>10000 kr</td>
+            </tr>
+            <tr>
+                <td>juli</td>
+                <td>15000 kr</td>
+            </tr>
+            <tr>
+               <th colspan="2">Sum: 105000 kr</th>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
